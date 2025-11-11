@@ -1,5 +1,5 @@
 .bg-azul {
-  background-color: #003b88; /* azul de Qoribex */
+  background-color: #1041A7; /* azul de Qoribex */
 }
 
 .btn-amarillo {
@@ -25,4 +25,5 @@
   padding: 10px 30px;
   font-size: 18px;
   letter-spacing: 1px;
+  width: 70%;
 }
