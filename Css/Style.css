@@ -1,0 +1,28 @@
+.bg-azul {
+  background-color: #003b88; /* azul de Qoribex */
+}
+
+.btn-amarillo {
+  background-color: #f5c700;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  width: 110px;
+  height: 50px;
+  transition: 0.3s;
+}
+
+.btn-amarillo:hover {
+  background-color: #ffdb3a;
+  color: #000;
+}
+
+/* Figura superior amarilla donde dice INICIO */
+.figura-superior {
+  background-color: #f5c700;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 30px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
