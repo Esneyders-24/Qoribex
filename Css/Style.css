@@ -44,3 +44,94 @@ html, body {
   min-height: 100vh !important;
   overflow-y: scroll !important; 
 }
+
+.boton-sobre-imagen {
+  position: absolute;
+  bottom: 30px;   /* 🔹 distancia desde abajo */
+  right: 30px;    /* 🔹 distancia desde la derecha */
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: #ffffff; /* amarillo Qoribex */
+  color: #1041A7; /* azul Qoribex */
+  border: none;
+  transition: 0.3s;
+  width: 200px;
+}
+
+.boton-sobre-imagen:hover {
+  background-color: #ffdb3a;
+  color: #000;
+}
+
+.linea-centro {
+  width: 80%;
+  margin: 0 auto;
+  border: 3px solid #EED86D;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+  h3 {
+  font-size: 1.6rem;
+  text-align: center;
+  max-width: 800px; 
+  margin: 0 auto 20px auto;
+  line-height: 1.3;
+}
+
+.resaltar{
+  font-weight: bold;
+  color: #153987;
+}
+
+.titulo-grande {
+  font-size: 10rem; 
+  font-weight: 800; 
+}
+
+.img-tarjeta {
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-tarjeta:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.clientes {
+  background-color: #fff;
+  padding: 30px 0;
+}
+
+.titulo-clientes {
+  color: #004aad;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.logos-clientes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; /* espacio entre logos */
+}
+
+.logos-clientes img {
+  max-width: 120px; /* tamaño de cada logo */
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.logos-clientes img:hover {
+  transform: scale(1.1);
+}
+
+
+
