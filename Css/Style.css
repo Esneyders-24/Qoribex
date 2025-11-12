@@ -3,27 +3,38 @@
 }
 
 .btn-amarillo {
-  background-color: #f5c700;
-  color: #000;
+  background-color: #FFD763;
+  color: #2b40e0;
   font-weight: 600;
   border: none;
   border-radius: 8px;
   width: 110px;
-  height: 50px;
+  height: 100px;
   transition: 0.3s;
 }
 
 .btn-amarillo:hover {
   background-color: #ffdb3a;
-  color: #000;
+  color: #1c4de1;
 }
 
 /* Figura superior amarilla donde dice INICIO */
 .figura-superior {
-  background-color: #f5c700;
+  background-color: #FFD763;
   border-radius: 10px 10px 0 0;
   padding: 10px 30px;
   font-size: 18px;
   letter-spacing: 1px;
   width: 70%;
+}
+
+/* Ajustar el logo */
+.img_logo{
+  width: 300px;
+  height: auto;
+  margin-top: -60px;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
 }
