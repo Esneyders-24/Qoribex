@@ -1,3 +1,4 @@
+
 .bg-azul {
   background-color: #1041A7; /* azul de Qoribex */
 }
@@ -91,9 +92,9 @@ html, body {
 }
 
 .img-tarjeta {
-  width: 90%;
+  width: 80%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 20px;
   object-fit: cover;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -120,11 +121,11 @@ html, body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 40px; /* espacio entre logos */
+  gap: 40px; 
 }
 
 .logos-clientes img {
-  max-width: 120px; /* tamaño de cada logo */
+  max-width: 120px; 
   height: auto;
   transition: transform 0.3s ease;
 }
@@ -133,5 +134,54 @@ html, body {
   transform: scale(1.1);
 }
 
+.text-primary-qoribex {
+  color: #2b509f;
+}
 
+
+
+.carousel-container {
+    background: #0D47A1;
+    height: 400px; 
+    padding: 20px;
+    width: 1550px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.carrusel-img {
+    width: 700px;   
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    padding: 40px 20px 20px 20px;   
+}
+
+.carousel-botones {
+    margin-top: 20px;   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.btn-flecha {
+    width: 55px;
+    height: 55px;
+    background: white;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.btn-flecha i {
+    color: #0D47A1;
+    font-weight: bold;
+}
 
