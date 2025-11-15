@@ -1,13 +1,43 @@
 .bg-azul {
   background-color: #1041A7;
-  /* azul de Qoribex */
 }
 
 .img-derecha {
   width: 100%;
   height: 650px;
-  /* Cambia este valor */
   object-fit: cover;
+}
+
+
+#intro-video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+#intro-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fade-out {
+  animation: fadeOut 1.2s ease forwards;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 
 
@@ -29,7 +59,7 @@
   color: #1c4de1;
 }
 
-/* Figura superior amarilla donde dice INICIO */
+
 .figura-superior {
   background-color: #FFD763;
   border-radius: 10px 10px 0 0;
@@ -159,8 +189,6 @@ h3 {
 }
 
 
-
-
 .custom-arrows {
   top: auto !important;
   bottom: 1px !important;
@@ -193,7 +221,7 @@ h3 {
   width: 1550px;
 }
 
-/* Fondo y fuente */
+
 .footer {
   background-color: #0f358a;
   padding: 60px 40px;
@@ -201,7 +229,7 @@ h3 {
   font-family: "Poppins", sans-serif;
 }
 
-/* Línea de texto superior */
+
 .footer-top-text {
   text-align: center;
   font-size: 28px;
@@ -221,21 +249,20 @@ h3 {
   color: #f5d108;
 }
 
-/* Contenido principal: columnas más juntas */
+
 .footer-container {
   display: grid;
   grid-template-columns: 280px 1fr 1fr 1fr;
   gap: 10px;
 }
 
-/* Logo */
+
 .logo {
   width: 300px;
   margin-bottom: 20px;
   height: auto;
 }
 
-/* Suscripción */
 .subscribe-box label {
   font-size: 14px;
   margin-bottom: 6px;
@@ -257,16 +284,13 @@ h3 {
 }
 
 
-/* Columnas de servicios */
 .footer-column {
   margin-top: 100px;
-  /* columnas más abajo */
   position: relative;
   padding-left: 25px;
-  /* espacio para la raya */
 }
 
-/* Raya vertical entre columnas */
+
 .footer-column:not(:first-child)::before {
   content: "";
   position: absolute;
@@ -277,7 +301,7 @@ h3 {
   background: rgba(255, 255, 255, 0.3);
 }
 
-/* Texto de las listas */
+
 .footer-column h4 {
   margin-bottom: 10px;
   font-size: 16px;
@@ -292,7 +316,7 @@ h3 {
   width: fit-content;
 }
 
-/* Redes sociales */
+
 .social-icons {
   display: flex;
   gap: 12px;
@@ -307,7 +331,7 @@ h3 {
   padding: 6px;
 }
 
-/* Línea inferior */
+
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   margin-top: 40px;
@@ -320,38 +344,31 @@ h3 {
 }
 
 
-/*-------------*/
 .footer {
   position: relative;
   overflow: hidden;
-  /* evita que sobresalgan */
 }
 
-/* Estilo general para todas las decoraciones */
 .footer-deco {
   position: absolute;
   width: 130px;
-  /* AQUÍ cambias el tamaño */
   opacity: 0.9;
-  /* opcional */
   pointer-events: none;
-  /* no afecta clics del usuario */
 }
 
-/* Imagen 1 */
+
 .deco1 {
   top: 10px;
   left: 10px;
 }
 
-/* Imagen 2 */
+
 .deco2 {
   bottom: 20px;
   right: 30px;
   top: 35%;
 }
 
-/* Imagen 3 */
 .deco3 {
   top: 85%;
   transform: translateY(-50%);
@@ -361,7 +378,6 @@ h3 {
 
 @media (max-width: 768px) {
 
-  /* Columna azul */
   .img_logo {
     width: 180px;
     margin-top: 0;
@@ -378,7 +394,6 @@ h3 {
     padding: 0 10px;
   }
 
-  /* Botones grandes */
   .btn-amarillo {
     width: 90px;
     height: 85px;
@@ -389,7 +404,7 @@ h3 {
     height: 40px !important;
   }
 
-  /* Imagen derecha */
+
   .col-md-8 img {
     height: auto !important;
     width: 100% !important;
@@ -403,7 +418,6 @@ h3 {
     font-size: 14px;
   }
 
-  /* Sección QUIÉNES SOMOS */
   .linea-centro {
     width: 95%;
   }
@@ -413,13 +427,11 @@ h3 {
     padding: 0 15px;
   }
 
-  /* Tarjetas de servicios */
   .img-tarjeta {
     width: 100%;
     border-radius: 12px;
   }
 
-  /* Carrusel */
   .carrusel-img {
     height: 300px !important;
     object-fit: cover;
@@ -427,10 +439,8 @@ h3 {
 }
 
 
-/* --- Corrección definitiva para flechas del carrusel en celular --- */
 @media (max-width: 768px) {
 
-  /* Forzar que las flechas vuelvan a su posición correcta */
   .carrusel-personal .carousel-control-prev,
   .carrusel-personal .carousel-control-next {
     position: absolute !important;
@@ -442,17 +452,14 @@ h3 {
     height: 50px !important;
   }
 
-  /* Flecha izquierda */
   .carrusel-personal .carousel-control-prev {
     left: 10px !important;
   }
 
-  /* Flecha derecha */
   .carrusel-personal .carousel-control-next {
     right: 10px !important;
   }
 
-  /* Iconos más pequeños y centrados */
   .carrusel-personal .carousel-control-prev-icon,
   .carrusel-personal .carousel-control-next-icon {
     width: 30px !important;
@@ -461,7 +468,6 @@ h3 {
     background-position: center !important;
   }
 
-  /* Imagen correcta en celular */
   .carrusel-personal .carrusel-img {
     width: 100% !important;
     height: 260px !important;
@@ -470,8 +476,6 @@ h3 {
 }
 
 @media (max-width: 768px) {
-
-    /* Contenedor principal apilado */
     .footer-container {
         display: grid;
         grid-template-columns: 1fr;
@@ -481,21 +485,18 @@ h3 {
         padding: 20px 0;
     }
 
-    /* Figura decorativa superior */
     .decoracion-superior {
         display: block;
-        margin: 10px auto 25px auto; /* separa la figura del texto */
-        width: 110px; /* opcional para que no se vea enorme */
+        margin: 10px auto 25px auto; 
+        width: 110px; 
     }
 
-    /* Texto principal */
     .footer-top-text {
         font-size: 22px;
         line-height: 1.3;
         padding: 0 20px;
     }
 
-    /* Columnas */
     .footer-column {
         margin: 0 auto;
         padding: 0;
@@ -503,18 +504,16 @@ h3 {
         text-align: center;
     }
 
-    /* Quitar líneas verticales del desktop */
+
     .footer-column::before {
         display: none !important;
     }
 
-    /* Títulos de sección */
     .footer-column h4 {
         margin-bottom: 12px;
         font-size: 18px;
     }
 
-    /* Listas centradas */
     .footer-column ul {
         list-style: none;
         padding: 0;
@@ -523,7 +522,6 @@ h3 {
         text-align: center;
     }
 
-    /* Servicios centrados */
     .services-section, 
     .services-section ul {
         text-align: center !important;
@@ -531,28 +529,26 @@ h3 {
         padding: 0;
     }
 
-    /* Caja de suscripción centrada */
     .subscribe-box {
         margin: 0 auto;
         width: 95%;
     }
 
-    /* Redes sociales */
+
     .social-icons {
         justify-content: center;
         gap: 15px;
         display: flex;
     }
 
-    /* Figura decorativa inferior */
+
     .decoracion-inferior {
         display: block;
         margin: 30px auto 10px auto;
-        position: static; /* evita que se superponga */
+        position: static; 
         width: 130px;
     }
 
-    /* Parte inferior */
     .footer-bottom {
         display: flex;
         flex-direction: column;

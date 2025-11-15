@@ -1,21 +1,12 @@
-<script>
-    const imagenes = [
-        "Img/1.jpg",
-        "Img/2.jpg",
-        "Img/3.jpg",
-        "Img/4.jpg"
-    ];
+document.addEventListener("DOMContentLoaded", () => {
+    const intro = document.getElementById("intro-video-container");
+    const video = document.getElementById("intro-video");
 
-    let index = 0;
-    let img = document.getElementById("imgCarrusel");
+    video.addEventListener("ended", () => {
+        intro.classList.add("fade-out");
 
-    document.getElementById("btnPrev").onclick = () => {
-        index = (index - 1 + imagenes.length) % imagenes.length;
-        img.src = imagenes[index];
-    };
-
-    document.getElementById("btnNext").onclick = () => {
-        index = (index + 1) % imagenes.length;
-        img.src = imagenes[index];
-    };
-</script>
+        setTimeout(() => {
+            intro.style.display = "none";
+        }, 1200);
+    });
+});
