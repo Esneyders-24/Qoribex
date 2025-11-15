@@ -29,7 +29,6 @@
   width: 70%;
 }
 
-/* Ajustar el logo */
 .img_logo{
   width: 300px;
   height: auto;
@@ -48,13 +47,13 @@ html, body {
 
 .boton-sobre-imagen {
   position: absolute;
-  bottom: 30px;   /* 🔹 distancia desde abajo */
-  right: 30px;    /* 🔹 distancia desde la derecha */
+  bottom: 30px;   
+  right: 30px;     
   padding: 10px 20px;
   font-weight: bold;
   border-radius: 8px;
-  background-color: #ffffff; /* amarillo Qoribex */
-  color: #1041A7; /* azul Qoribex */
+  background-color: #ffffff; 
+  color: #1041A7; 
   border: none;
   transition: 0.3s;
   width: 200px;
@@ -140,48 +139,195 @@ html, body {
 
 
 
-.carousel-container {
-    background: #0D47A1;
-    height: 400px; 
-    padding: 20px;
-    width: 1550px;
-    margin: 0 auto;
-    position: relative;
-}
-
 .carrusel-img {
-    width: 700px;   
-    height: 300px;
-    object-fit: cover;
+  width: 1550px;
+  height: 700px;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
+
+
+
+.custom-arrows {
+  top: auto !important;        
+  bottom: 1px !important;     
+  width: 60px;
+  height: 60px;
+  opacity: 1 !important;
+}
+
+
+.carousel-control-prev.custom-arrows {
+  left: 42% !important;   
+}
+
+.carousel-control-next.custom-arrows {
+  right: 42% !important;  
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0,0,0,0.5);
+  padding: 15px;
+  border-radius: 50%;
+  background-size: 100%, 100%;
+}
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+  width: 1550px;
+}
+
+/* Fondo y fuente */
+.footer {
+    background-color: #0f358a;
+    padding: 60px 40px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Línea de texto superior */
+.footer-top-text {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.footer-top-text .yellow { color: #f5d108; }
+.footer-top-text .white { color: #ffffff; }
+.footer-top-text .green { color: #f5d108; }
+
+/* Contenido principal: columnas más juntas */
+.footer-container {
+    display: grid;
+    grid-template-columns: 280px 1fr 1fr 1fr; 
+    gap: 10px;
+}
+
+/* Logo */
+.logo {
+    width: 300px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+/* Suscripción */
+.subscribe-box label {
+    font-size: 14px;
+    margin-bottom: 6px;
     display: block;
-    margin: 0 auto;
-    padding: 40px 20px 20px 20px;   
 }
 
-.carousel-botones {
-    margin-top: 20px;   
+.subscribe-box input {
+    background: #f5d108;
+    border-radius: 35px;
+    padding: 12px 20px;
+    border: none;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+    font-size: 14px;
+    color: #000;
+}
+
+.subscribe-box {
+    margin-left: 50px;
 }
 
 
-.btn-flecha {
-    width: 55px;
-    height: 55px;
+/* Columnas de servicios */
+.footer-column {
+    margin-top: 100px;   /* columnas más abajo */
+    position: relative;
+    padding-left: 25px; /* espacio para la raya */
+}
+
+/* Raya vertical entre columnas */
+.footer-column:not(:first-child)::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 150px;
+    width: 2px;
+    background: rgba(255,255,255,0.3);
+}
+
+/* Texto de las listas */
+.footer-column h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.9;
+    font-size: 14px;
+    width: fit-content;
+}
+
+/* Redes sociales */
+.social-icons {
+    display: flex;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
     background: white;
     border-radius: 50%;
-    border: none;
+    padding: 6px;
+}
+
+/* Línea inferior */
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 40px;
+    padding-top: 15px;
+    text-align: center;
     display: flex;
+    gap: 35px;
     justify-content: center;
-    align-items: center;
-    font-size: 28px;
-    cursor: pointer;
+    font-size: 13px;
 }
 
-.btn-flecha i {
-    color: #0D47A1;
-    font-weight: bold;
+
+/*-------------*/
+.footer {
+    position: relative;
+    overflow: hidden; /* evita que sobresalgan */
 }
 
+/* Estilo general para todas las decoraciones */
+.footer-deco {
+    position: absolute;
+    width: 130px;      /* AQUÍ cambias el tamaño */
+    opacity: 0.9;      /* opcional */
+    pointer-events: none; /* no afecta clics del usuario */
+}
+
+/* Imagen 1 */
+.deco1 {
+    top: 10px;
+    left: 10px;
+}
+
+/* Imagen 2 */
+.deco2 {
+    bottom: 20px;
+    right: 30px;
+}
+
+/* Imagen 3 */
+.deco3 {
+    top: 85%;
+    transform: translateY(-50%);
+    right: 120px;
+}
