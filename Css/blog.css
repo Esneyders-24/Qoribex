@@ -20,20 +20,27 @@ body {
 
 .cuadrado-blog{
     width: 1300px;
-    height: 500px;
+    height: auto;
     background-color: #E5C524;
     margin-left: 100px;
     border-radius: 10px;
-    align-items: flex-end;
+    align-items: flex-start;
     margin: 40px auto;
     padding: 30px;
     gap: 40px;
     display: flex;
+    
 }
 .Imagen-blog1{
     width: 350px;
     height: auto;
     border-radius: 15px;
+    transition: transform 0.4 ease, box-shadow 0.4s ease;
+}
+
+.Imagen-blog1:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgb(0, 0, 0,0.25);
 }
 
 .descripcion-blog1{
@@ -49,5 +56,25 @@ body {
 }
 
 .linea1{
-    
+    width: 800px;
+    height: 4px;
+    background-color: #1445AB;
+    margin: 12px 0;
+    border-radius: 2px;
+}
+.texto-1{
+  font-size: 1.1rem;
+  max-width: 700px;
+}
+
+.cuadro-chiquito1{
+    margin-top: 30px;
+    width: fit-content;
+    background-color: #1445AB;
+    padding: 12px 18px;
+    font-size: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0, 0, .2);
+    align-self: flex-end;
+    text-align: right;
+
 }
