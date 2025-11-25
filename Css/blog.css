@@ -23,12 +23,12 @@ body {
     height: auto;
     background-color: #E5C524;
     margin-left: 100px;
-    border-radius: 10px;
     align-items: flex-start;
-    margin: 40px auto;
+    margin: auto;
     padding: 30px;
     gap: 40px;
     display: flex;
+    position: relative;
     
 }
 .Imagen-blog1{
@@ -53,6 +53,7 @@ body {
     font-size: 2.4rem;
     font-weight: bold;
     margin: 0;
+    color: #1445AB;
 }
 
 .linea1{
@@ -67,14 +68,87 @@ body {
   max-width: 700px;
 }
 
-.cuadro-chiquito1{
-    margin-top: 30px;
-    width: fit-content;
-    background-color: #1445AB;
-    padding: 12px 18px;
-    font-size: 1rem;
-    box-shadow: 0 2px 5px rgba(0,0, 0, .2);
-    align-self: flex-end;
-    text-align: right;
+.cuadro-chiquito1 {
+    background: #1445AB;
+    color: #fff;
+    padding: 6px 15px;
+    font-size: 12px;
+    border-radius: 5px;
+    position: absolute;  
+    right: 30px;        
+    bottom: 20px;        
+    width: 407px;
+    height: 40px;  
+    text-align: left;       
+}
 
+.cuadro-chiquito2 {
+    background: #1445AB;
+    color: #fff;
+    padding: 6px 15px;
+    font-size: 12px;
+    border-radius: 5px;
+    position: absolute;  
+    left: 30px;        
+    bottom: 20px;        
+    width: 350px;
+    height: 40px;  
+    text-align: right;       
+}
+
+@media (max-width: 768px) {
+
+    .cuadrado-blog {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 15px;
+        background: #e2c220;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .Imagen-blog1 {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .descripcion-blog1 {
+        width: 100%;
+    }
+
+    .titulo-blog1 {
+        font-size: 22px;
+    }
+
+    .linea1 {
+        width: 100%;
+        height: 4px;
+        background: #133e9f;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .cuadro-chiquito1 {
+        align-self: flex-start; /* se queda a la izquierda */
+        position: relative;      /* evita deformaciones */
+    }
+}
+
+@media (max-width: 768px) {
+    .cuadro-chiquito1 {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        margin-top: 10px;
+        width: fit-content;
+    }
+}
+
+@media (max-width: 768px) {
+    .Subtitulo_1 {
+        text-align: center !important;
+        margin-left: 0 !important;
+    }
 }
