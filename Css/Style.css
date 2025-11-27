@@ -1,5 +1,5 @@
 .bg-azul {
-  background-color: #1041A7;
+  background-color: #1e459b;
 }
 
 .img-derecha {
@@ -44,7 +44,7 @@
 
 
 .btn-amarillo {
-  background-color: #FFD763;
+  background-color: #e5c524;
   color: #000000;
   font-weight: 600;
   border: none;
@@ -55,13 +55,13 @@
 }
 
 .btn-amarillo:hover {
-  background-color: #ffdb3a;
-  color: #1c4de1;
+  background-color: #e5c524;
+  color: #1e459b;
 }
 
 
 .figura-superior {
-  background-color: #FFD763;
+  background-color: #e5c524;
   border-radius: 10px 10px 0 0;
   padding: 10px 30px;
   font-size: 18px;
@@ -94,21 +94,21 @@ body {
   font-weight: bold;
   border-radius: 8px;
   background-color: #ffffff;
-  color: #1041A7;
+  color: #1e459b;
   border: none;
   transition: 0.3s;
   width: 200px;
 }
 
 .boton-sobre-imagen:hover {
-  background-color: #ffdb3a;
+  background-color: #e5c524;
   color: #000;
 }
 
 .linea-centro {
   width: 80%;
   margin: 0 auto;
-  border: 3px solid #EED86D;
+  border: 3px solid #e5c524;
   border-radius: 4px;
   opacity: 1;
 }
@@ -123,7 +123,7 @@ h3 {
 
 .resaltar {
   font-weight: bold;
-  color: #153987;
+  color: #1e459b;
 }
 
 .titulo-grande {
@@ -150,7 +150,7 @@ h3 {
 }
 
 .titulo-clientes {
-  color: #004aad;
+  color: #1e459b;
   font-weight: bold;
   font-size: 1.8rem;
   margin-bottom: 20px;
@@ -175,7 +175,7 @@ h3 {
 }
 
 .text-primary-qoribex {
-  color: #2b509f;
+  color: #1e459b;
 }
 
 
@@ -224,7 +224,7 @@ h3 {
 
 
 .footer {
-  background-color: #0f358a;
+  background-color: #1e459b;
   padding: 60px 40px;
   color: white;
   font-family: "Poppins", sans-serif;
@@ -240,7 +240,7 @@ h3 {
 }
 
 .footer-top-text .yellow {
-  color: #f5d108;
+  color: #e5c524;
 }
 
 .footer-top-text .white {
@@ -248,7 +248,7 @@ h3 {
 }
 
 .footer-top-text .green {
-  color: #f5d108;
+  color: #e5c524;
 }
 
 
@@ -272,7 +272,7 @@ h3 {
 }
 
 .subscribe-box input {
-  background: #f5d108;
+  background: #e5c524;
   border-radius: 35px;
   padding: 12px 20px;
   border: none;
