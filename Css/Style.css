@@ -83,7 +83,7 @@ html,
 body {
   height: auto !important;
   min-height: 100vh !important;
-  overflow-y: scroll !important;
+  overflow-x: hidden;
 }
 
 .boton-sobre-imagen {
@@ -558,5 +558,6 @@ h3 {
         text-align: center;
     }
 }
+
 
 
