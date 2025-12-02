@@ -1,0 +1,11 @@
+body {
+    min-height: 200vh;
+}
+
+
+
+.img-Encabezado {
+    width: 100%;
+    height: 100px;
+    display: block;
+}

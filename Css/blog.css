@@ -22,156 +22,125 @@ body {
 
 #carouselExampleCaptions {
     max-width: 900px;
-    /* ancho del carrusel */
     margin: auto;
-    /* centrar */
+    
 }
 
 #carouselExampleCaptions .carousel-item img {
     height: auto;
-    /* altura */
     object-fit: cover;
 }
 
 .Cuadro-amarrillodecarrusel {
     background-color: #e5c524;
-    width: 1000px;
-    height: 45px;
+    width: 1200px;
+    height: 405px;
     margin: 0 auto;
     position: relative;
-    top: -40px;
+    top: -450px;
     z-index: -1;
 }
 
-h4,
-h2,
-small,
-a {
-    margin: 0;
-    padding: 0;
+
+
+.carrusel-q {
+  width: 100%;
+  max-width: 1000px;   
+  margin: 0 auto;
+  position: relative;
 }
 
-a {
-    text-decoration: none;
-}
-
-.carousel {
-    width: 100%;
-    margin: 0px 0px;
-}
-
-@media(min-width:768px) {
-    .carousel {
-        margin: 0px 60px;
-    }
-}
-
-.carousel h2 {
-    font-size: 45px;
-    line-height: 38px;
-    padding-bottom: 50px;
-    opacity: .9;
-    text-transform: uppercase;
-    font-weight: 600;
-    text-align: center;
-    color: #ffffff;
-}
-
-.carruselilist {
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: fit-content;
-    height: 304px;
-    padding: 10px epx;
-    margin: Opx auto;
-    max-width: 90vw;
-    overflow: hidden;
-}
-
-.carrusel-track {
-position: relative;
-top: 0;
-left: 0;
-display: flex;
-justify-content: center;
-transition: .5s ease-in-out;
-}
-
-.carrusel {
-
-position: relative;
-width: 210px;
-padding: 0 18px;
-float: left;
-box-sizing: border-box;
-display: flex;
-height: 100%;
-}
-
-.carrusel h4 {
-
-position: absolute;
-z-index: 1;
-font-size: 22px;
-line-height: 23px;
-color: #ffffff;
-padding: 15px;
-}
-
-.carrusel h4 small {
-font-size: 15px;
-display: block;
-}
-
-.carrusel a img {
-
-object-fit: cover;
-height: 300px;
-width: 200px;
-border-radius: 15px;
-box-shadow: 0 2px 5px e Orgba(0, 0, 0, 0.5);
-transition: .3s ease-in-out;
+.img-q {
+  width: 100%;
+  height: 450px;       
+  object-fit: contain; 
 }
 
 
-@media(min-width:768px) {
-
-.carrusel {
-width: 275px;
-}
-.carrusel a img {
-width: 250px;
-}
+.texto-abajo {
+  padding: 15px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #1e459b;
+  text-align: center;
 }
 
-.carrusel-arrow {
-border-radius: 30px;
-background-color:#ffffff;
-position: absolute;
-z-index: 4;
-width: 48px;
-height: 48px;
-text-align: center;
-border: 0;
-cursor: pointer;
+
+.boton-q {
+  top: 40%;
+  width: 50px;
+  height: 50px;
+  opacity: 1 !important;
 }
 
-.carrusel-arrow:focus{
-outline: 0;
+.flecha-circulo {
+  width: 85px;
+  height: 45px;
+  background: #e5c524;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid white;
 }
 
-.carrusel-arrow svg {
-width: 12px;
-height: 100%;
-color: Orgba(0, 0, 0, 0.7);
+.flecha {
+  font-size: 72px;
+  color: #1e459b;
+  font-weight: bold;
+  position: relative;
+  top: -10px;   
 }
 
-.carrusel-prev {
-left: 0px;
-
+.linea-centro {
+  width: 80%;
+  margin: 0 auto;
+  border: 3px solid #1e459b;
+  border-radius: 4px;
+  opacity: 1;
 }
 
-.carrusel-next {
-right: 0px;
+.img-q {
+  width: 100%;
+  height: 450px;
+  object-fit: contain;
+}
+
+.texto-abajo {
+  padding: 40px 40px 50px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+/* TÍTULO */
+.texto-abajo h2 {
+  color: #1e459b;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+/* LÍNEA CENTRADA */
+.linea-centro {
+  width: 50%;
+  height: 3px;
+  background: #1e459b;
+  border: none;
+  margin: 0 auto 25px;
+}
+
+/* PÁRRAFO */
+.descripcion {
+  color: #2e2e2e;
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 760px;
+  margin: 0 auto 20px;
+}
+
+/* AUTOR */
+.autor {
+  color: #1e459b;
+  font-size: 16px;
+  font-weight: bold;
 }
