@@ -572,3 +572,210 @@ html, body {
 
 
 
+/* grid2*/
+.cuadroamarrillo-señalizado3{
+  margin-top: 150px;
+  background: #e5c524;
+  width: 650px;
+  padding: 18px 20px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 50px;
+  color: #1e459b;
+  font-family: "Poppins", sans-serif;
+  font-size: 39px;
+  font-weight: 600;
+}
+
+.señalizacion-text3{
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0;
+  margin-right: 40px;
+   margin-top: 10px;
+}
+
+.titulo3{
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #1e459b;
+  font-family: "Poppins", sans-serif;
+  margin-left: 70px;
+}
+
+.imagen-text4{
+  width:830px;
+  height: auto;
+  float: right;
+  transition: box-shadow .3s ease;
+  transform: translateY(-370px) translateX(230px);
+}
+
+.imagen-text4:hover {
+  box-shadow: 0 10px 25px rgba(0,0,0,.25);
+}
+
+.titulo4{
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #1e459b;
+  font-family: "Poppins", sans-serif;
+  margin-left: 70px;
+  transform: translateY(-400px) translateX(-1px);
+}
+
+.text5{
+  position: relative;
+  left: 70px;
+  color: #1e459b;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transform: translateY(-390px) translateX(-1px);
+}
+
+.imagen-text5{
+   width:830px;
+  height: auto;
+  float: right;
+  transition: box-shadow .3s ease;
+  transform: translateY(-390px) translateX(40px);
+}
+
+.imagen-text5:hover {
+  box-shadow: 0 10px 25px rgba(0,0,0,.25);
+}
+
+.titulo5{
+   margin-top: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #1e459b;
+  font-family: "Poppins", sans-serif;
+  margin-left: 70px;
+  transform: translateY(-400px) translateX(-5px);  
+}
+
+.text6{
+  position: relative;
+  left: 70px;
+  color: #1e459b;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transform: translateY(12px) translateX(-70px);
+}
+
+.text3-g{
+  color: #1e459b;
+  margin-top: 40px;
+  line-height: 1.5;
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transform: translateY(-5px) translateX(0px);
+}
+.lista2{
+   margin-top: 2px;
+  font-size: 19px;
+  line-height: 1.6;
+  transform: translateY(-45px) translateX(-10px);
+   color: #1e459b;
+  margin-top: 40px;
+  line-height: 1.5;
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.text7{
+   position: relative;
+  left: 70px;
+  color: #1e459b;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transform: translateY(-20px) translateX(-70px);
+}
+
+.titulo6{
+    margin-top: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #1e459b;
+  font-family: "Poppins", sans-serif;
+  margin-left: 70px;
+  transform: translateY(-400px) translateX(-3px);   
+}
+
+.text4-g{
+  color: #1e459b;
+  margin-top: 40px;
+  line-height: 1.5;
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transform: translateY(-430px) translateX(70px);    
+}
+
+.lista3{
+   margin-top: 2px;
+  font-size: 19px;
+  line-height: 1.6;
+  transform: translateY(-470px) translateX(70px);
+   color: #1e459b;
+  margin-top: 40px;
+  line-height: 1.5;
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.text8{
+  position: relative;
+  left: 70px;
+  color: #1e459b;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transform: translateY(-485px) translateX(0px);
+}
+
+.imagen-text6{
+  width:1400px;
+  height: auto;
+  float: right;
+  transition: box-shadow .3s ease;
+  transform: translateY(-475px) translateX(12px); 
+}
+
+.imagen-text6:hover {
+  box-shadow: 0 10px 25px rgba(0,0,0,.25);
+}
+
+.titulo7{
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #1e459b;
+  font-family: "Poppins", sans-serif;
+  margin-left: 70px;
+  transform: translateY(-480px) translateX(0px);    
+}
+
+.text9{
+  position: relative;
+  left: 70px;
+  color: #1e459b;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transform: translateY(-485px) translateX(0px);  
+}
