@@ -11,6 +11,8 @@ html, body {
   display: block;
 }
 
+
+
 .contenedor {
   position: relative;
 }
@@ -85,18 +87,16 @@ html, body {
   left: 70px;
   color: #1e459b;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
 .contenedor-img1 {
   display: flex;
-  justify-content: center; /* Centra horizontalmente */
+  justify-content: center; 
   position: relative; 
 }
 
-
-/* IMÁGENES DE LA PRIMERA PARTE */
 .imagen-text1 {
   width:860px;
   height: auto;
@@ -112,7 +112,7 @@ html, body {
 
 .contenedor-img2 {
   display: flex;
-  justify-content: center; /* Centra horizontalmente */
+  justify-content: center; 
   position: relative; 
 }
 
@@ -136,7 +136,7 @@ html, body {
   position: relative;
   color: #1e459b;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   transform: translateY(-880px) translateX(900px);
 
@@ -148,7 +148,7 @@ html, body {
   line-height: 1.5;
   position: relative;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   transform: translateY(-900px) translateX(900px);
 }
@@ -162,11 +162,11 @@ html, body {
   line-height: 1.5;
   position: relative;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
-/* SEÑALIZACIÓN 2 */
+
 .cuadroamarrillo-señalizado2 {
   margin-top: 70px;
   background: #e5c524;
@@ -193,21 +193,20 @@ html, body {
 }
 
 
-/* SEGUNDA PARTE */
 .text3 {
   color: #1e459b;
   margin-top: 40px;
   line-height: 1.5;
   position: relative;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   transform: translateY(-900px) translateX(100px);
 }
 
 .contenedor-img3 {
   display: flex;
-  justify-content: center; /* Centra horizontalmente */
+  justify-content: center; 
   position: relative; 
 }
 
@@ -229,7 +228,7 @@ html, body {
   line-height: 1.5;
   position: relative;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   transform: translateY(-900px) translateX(100px);
 }
@@ -632,7 +631,7 @@ html, body {
   left: 70px;
   color: #1e459b;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   transform: translateY(-390px) translateX(-1px);
 }
@@ -664,7 +663,7 @@ html, body {
   left: 70px;
   color: #1e459b;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   transform: translateY(12px) translateX(-70px);
 }
@@ -675,7 +674,7 @@ html, body {
   line-height: 1.5;
   position: relative;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   transform: translateY(-5px) translateX(0px);
 }
@@ -689,7 +688,7 @@ html, body {
   line-height: 1.5;
   position: relative;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
@@ -698,7 +697,7 @@ html, body {
   left: 70px;
   color: #1e459b;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   transform: translateY(-20px) translateX(-70px);
 }
@@ -719,7 +718,7 @@ html, body {
   line-height: 1.5;
   position: relative;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   transform: translateY(-430px) translateX(70px);    
 }
@@ -734,7 +733,7 @@ html, body {
   line-height: 1.5;
   position: relative;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
@@ -743,7 +742,7 @@ html, body {
   left: 70px;
   color: #1e459b;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   transform: translateY(-485px) translateX(0px);
 }
@@ -775,10 +774,165 @@ html, body {
   left: 70px;
   color: #1e459b;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   transform: translateY(-485px) translateX(0px);  
 }
+
+.footer2 {
+  background-color: #1e459b;
+  padding: 60px 40px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin-top: -450px;
+}
+
+
+.footer-top-text2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.footer-top-text2 .yellow {
+  color: #e5c524;
+}
+
+.footer-top-text2 .white {
+  color: #ffffff;
+}
+
+.footer-top-text2 .green {
+  color: #e5c524;
+}
+
+
+.footer-container2 {
+  display: grid;
+  grid-template-columns: 280px 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+
+.logo2 {
+  width: 300px;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.subscribe-box2 label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.subscribe-box2 input {
+  background: #e5c524;
+  border-radius: 35px;
+  padding: 12px 20px;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  color: #000;
+}
+
+.subscribe-box2 {
+  margin-left: 50px;
+}
+
+
+.footer-column2 {
+  margin-top: 100px;
+  position: relative;
+  padding-left: 25px;
+}
+
+
+.footer-column2:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 150px;
+  width: 2px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+
+.footer-column2 h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-column2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.9;
+  font-size: 14px;
+  width: fit-content;
+}
+
+
+.social-icons2 {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.social-icons2 img {
+  width: 32px;
+  height: 32px;
+  background: white;
+  border-radius: 50%;
+  padding: 6px;
+}
+
+
+.footer-bottom2 {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 40px;
+  padding-top: 15px;
+  text-align: center;
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  font-size: 13px;
+}
+
+
+.footer2 {
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-deco2 {
+  position: absolute;
+  width: 130px;
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+
+.deco17 {
+  top: 10px;
+  left: 10px;
+}
+
+
+.deco28 {
+  bottom: 20px;
+  right: 30px;
+  top: 35%;
+}
+
+.deco39 {
+  top: 85%;
+  transform: translateY(-50%);
+  right: 0px;
+}
+
 
 /*grid 3*/
 .cuadroamarrillo-señalizado4{
@@ -832,7 +986,7 @@ html, body {
   left: 70px;
   color: #1e459b;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   transform: translateY(-45px) translateX(30px);  
 }
@@ -868,7 +1022,7 @@ html, body {
   position: relative;
   color: #1e459b;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   transform: translateY(-555px) translateX(910px);
 }
@@ -891,7 +1045,7 @@ html, body {
   line-height: 1.5;
   position: relative;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   transform: translateY(-620px) translateX(915px);    
 }
@@ -906,7 +1060,7 @@ html, body {
   line-height: 1.5;
   position: relative;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
@@ -928,7 +1082,7 @@ html, body {
   line-height: 1.5;
   position: relative;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   transform: translateY(-700px) translateX(100px);    
 }
@@ -943,7 +1097,7 @@ html, body {
   line-height: 1.5;
   position: relative;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px; 
 }
 
@@ -965,7 +1119,7 @@ html, body {
   line-height: 1.2;
   position: relative;
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 1px;
   transform: translateY(-770px) translateX(99px);
   text-align: left;  
@@ -989,7 +1143,7 @@ html, body {
   line-height: 1.5;
   position: relative;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   transform: translateY(-810px) translateX(100px);  
 }
@@ -1004,7 +1158,7 @@ html, body {
   line-height: 1.5;
   position: relative;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;  
 }
 
@@ -1046,7 +1200,7 @@ html, body {
   line-height: 1.2;
   position: relative;
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 1px;
   transform: translateY(-1270px) translateX(100px);
   text-align: left; 
@@ -1071,7 +1225,7 @@ html, body {
   left: 70px;
   color: #1e459b;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   transform: translateY(-1275px) translateX(10px);  
 }
