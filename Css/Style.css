@@ -184,7 +184,7 @@ h3 {
 
 .carrusel-img {
   width: 1550px;
-  height: 700px;
+  height: auto;
   object-fit: cover;
   margin: 0 auto;
   display: block;
@@ -204,10 +204,12 @@ h3 {
 
 .carousel-control-prev.custom-arrows {
   left: 42% !important;
+  transform: translateY(-150px);
 }
 
 .carousel-control-next.custom-arrows {
   right: 42% !important;
+  transform: translateY(-150px);
 }
 
 
