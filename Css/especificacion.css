@@ -1,11 +1,11 @@
-/* GENERAL */
+
 html, body {
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
   color: #1e459b;
 }
 
-/* ENCABEZADO */
+
 .img-Encabezado {
   width: 100%;
   display: block;
@@ -17,7 +17,7 @@ html, body {
   position: relative;
 }
 
-/* CUADRO AMARILLO DEL TÍTULO PRINCIPAL */
+
 .cuadroamarrillo-grid {
   position: absolute;
   bottom: -120px;
@@ -1385,3 +1385,5 @@ html, body {
   transform: translateY(-50%);
   right: 0px;
 }
+
+
