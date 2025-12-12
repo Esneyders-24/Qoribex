@@ -42,6 +42,7 @@
     padding: 40px;
     border-bottom-left-radius: 90px;
     border-top-left-radius: 20px;
+    padding-bottom: 120px;
 }
 
 .caja-blanca h1 {
@@ -72,7 +73,7 @@
     color: #1e459b;
     margin-top: 20px;
     text-decoration: none;
-    transform: translateY(-250px) translateX(950px);
+    transform: translateY(-550px) translateX(950px);
     width: auto;
     height: auto;
     font-size: 30px;
@@ -116,7 +117,7 @@
 
 
 .señalizacion-textblanco{
-    transform: translateY(20px) translateX(90px);
+    transform: translateY(-5px) translateX(90px);
     text-align: left;
 }
 
@@ -152,23 +153,28 @@
 .decocion1{
     width: 180px;
     height: auto;
-    transform: translateY(-990px)  translateX(20px); 
+    transform: translateY(-890px)  translateX(20px); 
     z-index: 10;
 }
 
 .decocion2{
     width: 180px;
     height: auto;
-    transform: translateY(-1170px)  translateX(85px); 
+    transform: translateY(-1070px)  translateX(85px); 
     z-index: 10;
 }
+
+
+
+
 
 .footerx1 {
   background-color: #1e459b;
   padding: 60px 40px;
   color: white;
   font-family: "Poppins", sans-serif;
-  margin-top: -120px;
+  margin-top: -620px;
+  transform: translateY(-0px);
 }
 
 

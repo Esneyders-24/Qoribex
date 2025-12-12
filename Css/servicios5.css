@@ -63,7 +63,7 @@
 }
 
 .btn-portafolio {
-    display: inline-block;
+     display: inline-block;
     padding: 18px 55px;
     border-radius: 40px;
     background: #e5c524;
@@ -72,12 +72,11 @@
     color: #1e459b;
     margin-top: 20px;
     text-decoration: none;
-    transform: translateY(-250px) translateX(950px);
+    transform: translateY(-650px) translateX(950px);
     width: auto;
     height: auto;
     font-size: 30px;
     z-index: 10px;
-    
 }
 
 .pregunta1{
@@ -116,7 +115,7 @@
 
 
 .señalizacion-textblanco{
-    transform: translateY(20px) translateX(90px);
+    transform: translateY(-5px) translateX(90px);
     text-align: left;
 }
 
@@ -177,7 +176,8 @@
   padding: 60px 40px;
   color: white;
   font-family: "Poppins", sans-serif;
-  margin-top: -120px;
+  margin-top: -620px;
+  transform: translateY(-0px);
 }
 
 
