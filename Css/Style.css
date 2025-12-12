@@ -47,20 +47,59 @@
 
 .btn-amarillo {
   background-color: #e5c524;
-  color: #000000;
+  color: #1e459b !important;
   font-weight: 600;
   border: none;
   border-radius: 8px;
   width: 110px;
   height: 100px;
   transition: 0.3s;
+  text-decoration: none !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-amarillo:hover {
   background-color: #e5c524;
-  color: #1e459b;
+  color: #1e459b !important;
+  text-decoration: none !important;
 }
 
+.btn-amarillo img {
+  margin-bottom: 6px;
+}
+
+.galeria-3x3 {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.galeria-3x3 img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    transition: box-shadow .3s ease;
+}
+
+.galeria-3x3 img:hover {
+  box-shadow: 0 10px 25px rgba(0,0,0,.25);
+}
+
+@media (max-width: 768px) {
+    .galeria-3x3 {
+        grid-template-columns: 1fr;
+    }
+
+    .galeria-3x3 img {
+        height: 200px;
+    }
+}
 
 .figura-superior {
   background-color: #e5c524;
