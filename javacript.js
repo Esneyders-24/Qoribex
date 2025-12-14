@@ -14,7 +14,6 @@ const playlist = [
     player.addEventListener("ended", () => {
         index++;
 
-        // ¿Aún hay videos?
         if (index < playlist.length) {
             videoSource.src = playlist[index];
             player.load();
